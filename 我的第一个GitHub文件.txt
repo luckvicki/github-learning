@@ -1,0 +1,6 @@
+这是我第一次学习 GitHub。
+
+今天我学会了：
+1. Repository
+2. Commit
+3. Push
