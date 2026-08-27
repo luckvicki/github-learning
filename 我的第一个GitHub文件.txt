@@ -7,5 +7,5 @@
 4. GitHub Desktop
 5. Local Repository
 6. Remote Repository - MAIN分支版本
-
-这是 test-branch 分支里的测试内容。
+7. Pull Request
+我正在学习通过 PR 把功能分支合并到 main。
