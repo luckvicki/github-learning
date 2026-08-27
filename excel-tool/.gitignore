@@ -1,0 +1,17 @@
+# 忽略 input 目录中的 Excel 数据文件
+input/*.xlsx
+input/*.xls
+
+# 忽略输出目录
+output/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略环境变量和敏感配置
+.env
+
+# 忽略临时文件
+*.tmp
+*.log
