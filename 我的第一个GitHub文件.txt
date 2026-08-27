@@ -6,5 +6,5 @@
 3. Push
 4. GitHub Desktop
 5. Local Repository
-6. Remote Repository
+6. Remote Repository - CONFLICT分支版本
 这是 test-branch 分支里的测试内容。
