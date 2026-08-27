@@ -9,4 +9,5 @@ print("------------------")
 print(f"共发现 {len(excel_files)} 个 Excel 文件")
 
 for file in excel_files:
-    print(f"- {file.name}")
+    size_kb = file.stat().st_size / 1024
+    print(f"- {file.name} ({size_kb:.2f} KB)")
