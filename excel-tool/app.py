@@ -4,7 +4,7 @@ from openpyxl import load_workbook
 
 
 input_folder = Path(__file__).resolve().parent / "input"
-excel_files = sorted(input_folder.glob("*.abc"))
+excel_files = sorted(input_folder.glob("*.xlsx"))
 
 print("Excel 文件扫描工具")
 print("------------------")
