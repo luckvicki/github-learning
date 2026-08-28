@@ -6,7 +6,7 @@ from openpyxl import load_workbook
 input_folder = Path(__file__).resolve().parent / "input"
 excel_files = sorted(input_folder.glob("*.xlsx"))
 
-print("Excel 文件扫描工具")
+print("Excel 文件扫描工具"
 print("------------------")
 print(f"共发现 {len(excel_files)} 个 Excel 文件")
 
