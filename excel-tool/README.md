@@ -50,4 +50,3 @@ Excel 文件扫描工具
 Sheet数量：3
 ```
 
-Branch protection test.
