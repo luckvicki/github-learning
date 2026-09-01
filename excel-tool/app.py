@@ -12,7 +12,7 @@ def get_sheet_count(file_path):
     """读取 Excel 文件并返回工作表数量。"""
     workbook = load_workbook(file_path, read_only=True, data_only=True)
     try:
-        return len(workbook.sheetnames) + 1
+        return len(workbook.sheetnames)
     finally:
         workbook.close()
 
