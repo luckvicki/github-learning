@@ -40,8 +40,8 @@ def main(input_folder=None):
         try:
             sheet_count = get_sheet_count(file)
             print(f"Sheet数量：{sheet_count}")
-        except Exception as error:
-            print(f"读取失败：{error}")
+        except Exception:
+            print("读取失败：该文件可能已损坏，或不是有效的 Excel xlsx 文件。")
 
 
 if __name__ == "__main__":

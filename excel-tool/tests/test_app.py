@@ -60,7 +60,10 @@ class ExcelToolTests(unittest.TestCase):
 
             result = output.getvalue()
             self.assertIn("文件：broken.xlsx", result)
-            self.assertIn("读取失败：", result)
+            self.assertIn(
+                "读取失败：该文件可能已损坏，或不是有效的 Excel xlsx 文件。",
+                result,
+            )
             self.assertIn("文件：valid.xlsx", result)
             self.assertIn("Sheet数量：1", result)
 
